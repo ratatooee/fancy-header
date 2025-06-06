@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="dist/new_header_v2.css">
+  <script src="dist/new_header_v2.js" defer></script>
+</head>
+<body style="margin: 0">
+<div class="ffw-container">
+  <section class="fancy-header" id="fancy-header">
+    <div class="img-wrapper">
+      <picture data-hash="item-01" style="display: none">
+        <source media="(min-width: 769px)"
+                srcset="img/Syngenta-Startseite-Desktop-1440x800px-V02-Orange.jpg"/>
+        <img style="background-color: #eb8204;"
+             src="img/Syngenta-Startseite-Mobile-375x600px-V02-Orange.jpg"
+             alt="Header image" data-hash="item-01"/>
+      </picture>
+      <picture data-hash="item-02" style="display: none">
+        <source media="(min-width: 769px)"
+                srcset="img/Syngenta-Startseite-Desktop-1440x800px-V03-Grun.jpg"/>
+        <img style="background-color: #5f7802;"
+             src="img/Syngenta-Startseite-Mobile-375x600px-V03-Grun.jpg"
+             alt="Header image" data-hash="item-02"/>
+      </picture>
+      <picture data-hash="item-03" style="display: none">
+        <source media="(min-width: 769px)"
+                srcset="img/Syngenta-Startseite-Desktop-1440x800px-V05-Pink.jpg"/>
+        <img style="background-color: #ac2e78;"
+             src="img/Syngenta-Startseite-Mobile-375x600px-V05-Pink.jpg"
+             alt="Header image" data-hash="item-03"/>
+      </picture>
+      <picture data-hash="item-04" style="display: none">
+        <source media="(min-width: 769px)"
+                srcset="img/Syngenta-Startseite-Desktop-1440x800px-V04-Blau.jpg"/>
+        <img style="background-color: #01a0be;"
+             src="img/Syngenta-Startseite-Mobile-375x600px-V04-Blau.jpg"
+             alt="Header image" data-hash="item-04">
+      </picture>
+      <picture data-hash="item-00">
+        <source media="(min-width: 769px)"
+                srcset="img/Syngenta-Startseite-Desktop-1440x800px-V01.jpg"/>
+        <img style="background-color: #fff;"
+             src="img/Syngenta-Startseite-Mobile-375x600px-V01.jpg"
+             alt="Header image" data-hash="item-00">
+      </picture>
+    </div>
+    <div class="text-wrapper">
+<!--      <div class="text-box" data-hash="item-00">
+        <h1>Syngenta Saatgut-Symposium 2025</h1>
+        <p>Syngenta creates value for all our stakeholders – farmers, employees, suppliers, food chain partners, the
+          communities where we work, and society at large.</p>
+      </div>-->
+    </div>
+
+    <div class="menu-wrapper">
+      <div class="menu-column" data-hash="item-01">
+        <div class="item item-01">
+          <div class="item-header menu-base" data-hash="item-01">
+            <div class="title" data-links="block-01"><i class="icon leaf"></i> <span>Pflanzenschutz</span> <i
+              class="icon arrow-right"></i></div>
+          </div>
+          <div class="item-content">
+            <a class="back-button level-01" href="#"><i class="icon arrow-down"></i> Zurück</a>
+            <div class="subtitle">
+              <span class="mobile-title">Pflanzenschutz</span>
+              <!--Subtitle-->
+            </div>
+            <ul class="menu">
+              <li class="accordion-header" data-links="block-01"><span>Ackerbau</span> <i class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-01"><a href="/produkte/getreide"><span>Getreide</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-01"><a href="/produkte/mais"><span>Mais</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-01"><a href="/produkte/raps"><span>Raps</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-01"><a href="/produkte/kartoffeln"><span>Kartoffeln</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-01"><a href="/produkte/zuckerrueben"><span>Zuckerrüben</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-01"><a href="/produkte/sonnenblumen"><span>Sonnenblumen</span> <i class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+              <li class="accordion-header" data-links="block-01"><span>Spezialkulturen</span> <i class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-01"><a href="/produkte/gemuese"><span>Gemüse</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-01"><a href="/produkte/wein"><span>Wein</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-01"><a href="/produkte/erdbeeren"><span>Erdbeeren</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-01"><a href="/produkte/obstbau"><span>Obstbau</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-01"><a href="/produkte/zierpflanzen"><span>Zierpflanzen</span> <i class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+              <li data-links="block-01"><a href="/service-beratung/download-center"><span>Produktinformationen</span> <i class="icon arrow-right"></i></a></li>
+              <li data-links="block-01"><a href="/service-beratung/beratungscenter-kundentelefon"><span>BeratungsCenter FAQs</span> <i class="icon arrow-right"></i></a></li>
+              <li data-links="block-01"><a href="/bonusland-aktionen"><span>Bonusland Aktionen</span> <i class="icon arrow-right"></i></a></li>
+              <li data-links="block-01"><a href="/produkte/pflanzenschutz"><span>Produktsuche</span> <i class="icon arrow-right"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column" data-hash="item-02">
+        <div class="item item-02">
+          <div class="item-header menu-base " data-hash="item-02">
+            <div class="title" data-links="block-02"><i class="icon leaf"></i>
+              <span>Saatgut</span> <i class="icon arrow-right"></i></div>
+          </div>
+          <div class="item-content ">
+            <a class="back-button level-01" href="#"><i class="icon arrow-down"></i> Zurück</a>
+            <div class="subtitle">
+              <span class="mobile-title">Saatgut</span>
+              <!--Subtitle-->
+            </div>
+            <ul class="menu">
+              <li class="accordion-header" data-links="block-02"><span>Mais</span> <i class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i
+                    class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-02"><a href="/saatgut/mais"><span>Übersicht</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/mais-sorten"><span>Sorten</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/mais-anbau"><span>Anbau und digit. Lösungen</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/mais-zuechtung"><span>Züchtung</span> <i
+                    class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+              <li class="accordion-header" data-links="block-02"><span>Hyvido Hybridgerste</span> <i class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i
+                    class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-02"><a href="/saatgut/hyvido"><span>Übersicht</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/hyvido-sorten"><span>Sorten</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/hyvido-vorteile"><span>Hyvido Vorteile</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/hyvido-neo"><span>Hyvido Neo</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/hyvido-anbau"><span>Anbau</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/saatgutbedarfsrechner"><span>Saatstärkenrechner</span> <i
+                    class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+              <li class="accordion-header" data-links="block-02"><span>Winterweizen</span> <i class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i
+                    class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-02"><a href="/saatgut/winterweizen-sorten"><span>Sorten</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/winterweizen-anbau"><span>Anbau</span> <i
+                    class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+              <li data-links="block-02"><a href="/saatgut/wintertriticale"><span>Wintertriticale</span> <i class="icon arrow-right"></i></a></li>
+              <li class="accordion-header" data-links="block-02"><span>Raps</span> <i class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i
+                    class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-02"><a href="/saatgut/raps"><span>Übersicht</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/raps-sorten"><span>Sorten</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/raps-anbau"><span>Anbau</span> <i
+                    class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+              <li class="accordion-header" data-links="block-02"><span>Sonnenblumen</span> <i class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i
+                    class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-02"><a href="/saatgut/sonnenblumen"><span>Übersicht</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/sonnenblumen-sorten"><span>Sorten</span> <i
+                    class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/sonnenblumen-anbau"><span>Anbau</span>
+                    <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-02"><a href="/saatgut/sonnenblumen-zuechtung"><span>Züchtung</span> <i
+                    class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+              <li data-links="block-02"><a href="/saatgut"><span>Syngenta als Züchter</span> <i class="icon arrow-right"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column" data-hash="item-03">
+        <div class="item item-03 ">
+          <div class="item-header menu-base" data-hash="item-03">
+            <div class="title" data-links="block-03"><i class="icon leaf"></i> <span>Biologicals</span> <i
+              class="icon arrow-right"></i></div>
+          </div>
+          <div class="item-content">
+            <a class="back-button level-01" href="#"><i class="icon arrow-down"></i> Zurück</a>
+            <div class="subtitle">
+              <span class="mobile-title">Biologicals</span>
+              <!--Subtitle-->
+            </div>
+            <ul class="menu">
+              <li class="accordion-header" data-links="block-03"><span>Biostimulanzien</span> <i class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-03"><a href="/biostimulanzien"><span>Was sind Biostimulanzien?</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-03"><a href="/biostimulanzien-produkte"><span>Produkte</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-03"><a href="/service-beratung/download-center?field_product_cp_type_target_id=29146"><span>Produktinformationen</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-03"><a href="/bonusland-aktionen"><span>Bonusland Aktionen</span> <i class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+
+              <li class="accordion-header" data-links="block-03"><span>Biocontrols</span> <i class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-03"><a href="/produkte/biocontrols-start"><span>Was sind Biocontrols?</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-03"><a href="/produkte/biocontrols-produkte"><span>Produkte</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-03"><a href="/service-beratung/download-center?field_product_cp_type_target_id=29136"><span>Produktinformationen</span> <i class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column" data-hash="item-04">
+        <div class="item item-04 two-lines-title">
+          <div class="item-header menu-base" data-hash="item-04">
+            <div class="title" data-links="block-04"><i class="icon leaf"></i> <span>Agricultural<br> Solutions</span> <i class="icon arrow-right"></i></div>
+          </div>
+          <div class="item-content">
+            <a class="back-button level-01" href="#"><i class="icon arrow-down"></i> Zurück</a>
+            <div class="subtitle">
+              <span class="mobile-title">Agricultural Solutions</span>
+              <!--Subtitle-->
+            </div>
+            <ul class="menu">
+              <li class="accordion-header" data-links="block-04"><span>Cropwise Pflanzenschutz</span> <i
+                class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-04"><a target="_blank" href="https://www.cropwise.com/germany/spray-assist"><span>Spray Assist</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-04"><a target="_blank" href="https://www.cropwise.com/germany/protector-fungizidalarm"><span>Protector</span> <i class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+              <li class="accordion-header" data-links="block-04"><span>Cropwise Saatgut</span> <i class="icon arrow-down"></i></li>
+              <li class="accordion-content">
+                <ul>
+                  <li class="back-button-wrapper"><a class="back-button level-02" href="#"><i class="icon arrow-down"></i> Zurück</a></li>
+                  <li data-links="block-04"><a target="_blank" href="https://www.cropwise.com/germany/seed-selector"><span>Seed Selector</span> <i class="icon arrow-right"></i></a></li>
+                  <li data-links="block-04"><a target="_blank" href="https://www.cropwise.com/germany/planting"><span>Planting</span> <i class="icon arrow-right"></i></a></li>
+                </ul>
+              </li>
+              <li data-links="block-04"><a target="_blank" href="https://www.interrascan.de/"><span>InterraScan</span> <i class="icon arrow-right"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+</html>

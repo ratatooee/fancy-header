@@ -1,0 +1,27 @@
+# Ignore custom theme build artifacts
+node_modules
+styleguide
+
+# Ignore .sass-cache and .stylelintcache in git.
+.sass-cache
+.stylelintcache
+
+# Ignore any errors thrown by npm.
+npm-debug.log
+
+# Ignore any map files.
+*.map
+
+# Ignore svg sprite ans scss.
+templates/sprite/_sprite.scss
+templates/sprite/*.svg
+
+# Ignore generated CSS files.
+templates/**/*.css
+
+# Visual Studio Code
+.vscode
+*.code-workspace
+
+# IntelliJ IDEA
+.idea

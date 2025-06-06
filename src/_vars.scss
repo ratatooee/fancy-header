@@ -1,0 +1,26 @@
+/* Variables */
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap';
+
+$base-font-size: 16px;
+
+@function px-to-rem($px) {
+  @return calc(calc($px / $base-font-size) * 1rem);
+}
+
+$font-size-normal: px-to-rem($base-font-size);
+$font-size-normal-mobile: px-to-rem(14px);
+$font-size-title: px-to-rem(20px);
+$font-size-title-mobile: px-to-rem(26px);
+$font-size-title-hover: px-to-rem(16px);
+$font-size-teaser-title-mobile: px-to-rem(22px);
+$font-size-teaser-title: px-to-rem(36px);
+
+$font-family-open: 'Open Sans', sans-serif;
+$font-family-noto: 'Noto Sans', sans-serif;
+
+$color-white: #fff;
+$color-orange: #eb8204;
+$color-green: #5f7802;
+$color-blue: #01a0be;
+$color-purple: #ac2e78;

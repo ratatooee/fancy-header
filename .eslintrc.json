@@ -1,0 +1,50 @@
+{
+  // Modified copy of Drupal's core eslintrc.json
+  "root": true,
+  "extends": "eslint:recommended",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "Drupal": true,
+    "drupalSettings": true,
+    "drupalTranslations": true,
+    "jQuery": true,
+    "_": true,
+    "Cookies": true,
+    "Backbone": true,
+    "Modernizr": true,
+    "Popper": true,
+    "Sortable": true,
+    "CKEDITOR": true
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "consistent-return": ["off"],
+    "no-underscore-dangle": ["off"],
+    "max-nested-callbacks": ["warn", 5],
+    "no-inner-declarations": ["off"],
+    "no-plusplus": ["warn", {
+      "allowForLoopAfterthoughts": true
+    }],
+    "no-param-reassign": ["off"],
+    "no-prototype-builtins": ["off"],
+    "no-undef": ["off"],
+    "quotes": ["error", "single", {
+      "avoidEscape": true,
+      "allowTemplateLiterals": true
+      }
+    ],
+    "valid-jsdoc": ["warn", {
+      "prefer": {
+        "returns": "return",
+        "property": "prop"
+      },
+      "requireReturn": false
+    }],
+    "no-unused-vars": ["off"],
+    "operator-linebreak": ["error", "after", { "overrides": { "?": "ignore", ":": "ignore" } }]
+  }
+}

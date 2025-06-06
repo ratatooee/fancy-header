@@ -1,0 +1,18 @@
+{
+  "only": [
+    "**/*.es6",
+    "**/*.js"
+  ],
+  "targets": [
+    "> .5% and last 2 versions",
+    "not dead"
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": false
+      }
+    ]
+  ]
+}
